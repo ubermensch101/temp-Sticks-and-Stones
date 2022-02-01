@@ -652,7 +652,7 @@ class RBRect
         }
     }
     let elapsed_time = new Date() - start_date;
-    if(elapsed_time%(300-level)<0.00001) 
+    if(elapsed_time%(325-level)<0.00001) 
     {
         for(let kappa=0; kappa<guns.length; kappa++) 
         { //vx,vy to figure out
